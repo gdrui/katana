@@ -1,14 +1,21 @@
-## Start DB
+* Create deck: POST /decks
+* List decks: GET /decks
+* Open deck: GET /decks/:id
+* Draw cards: PATCH /decks/:id/draw?count=3
+
+
+
+## 1. Start DB
 ```bash
 $ docker-compose up -d
 ```
 
-## Setup
+## 2. Setup
 ```bash
 $ npm install
 ```
 
-## Run API
+## 3. Run API
 
 ```bash
 $ npm run start
